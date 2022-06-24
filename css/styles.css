@@ -24,12 +24,37 @@ body {
     padding-right: 15px;
 
 }
- .header-list  .current {
+ .hesder-two-link.current::after{
+    content: '';
+    position: absolute;
+    width: 48px;
+    height: 4px;
+    background-color: #2196F3;
+    border-radius: 2px
+    
+
+  
+}
+.header-link.current::after{
+    content: '';
+    position: absolute;
+   width:45px ;
+    height: 4px;
+    background-color: #2196F3;
+    border-radius: 2px
+    
+    
+}
+ .header-link.current {
+  
 color: var(--hover-footer-color);
 }
-.header-two-list .current{
+ .hesder-two-link.current{
+   
     color: var(--hover-footer-color);
-}
+ }
+
+
                          /* header */
 .header-logo{
 font-family: 'Raleway';
@@ -532,15 +557,15 @@ color: #FFFFFF;
     display: flex;
 }
 .company-item{
-    width:170px ;
-    height:92px ;
+    
     margin-left: 30px;
     
 }
 .company-link{
     width: 100%;
     height: 100%;
- 
+    width:170px ;
+    height:92px ;
     background-color: #FFFFFF;
     display: flex;
     align-items: center;
@@ -639,9 +664,7 @@ margin: 16px 32px 16px 32px;
   }
   
   
-  .header-list .list.link .current{
-   color:  var(--hover-footer-color);
-  }
+  
  
   
  
