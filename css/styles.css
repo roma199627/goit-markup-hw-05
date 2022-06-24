@@ -25,24 +25,26 @@ body {
 
 }
  .hesder-two-link.current::after{
-    content: '';
+    content: "";
     position: absolute;
-    width: 48px;
+   width:48px ;
     height: 4px;
+    border-radius: 2px;
     background-color: #2196F3;
-    border-radius: 2px
-    
+ top: 72px;
+margin-left: -50px;
 
   
 }
 .header-link.current::after{
-    content: '';
+    content: "";
     position: absolute;
-   width:45px ;
+   width:78px ;
     height: 4px;
     background-color: #2196F3;
-    border-radius: 2px
-    
+    border-radius: 2px;
+    top:72px;
+    margin-left: -75px;
     
 }
  .header-link.current {
