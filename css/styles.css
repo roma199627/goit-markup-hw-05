@@ -257,7 +257,7 @@ border-radius: 4px;
     flex-wrap: wrap;
     margin-bottom: -30px;
     margin-left: -30px;
-    
+   
 }
  .section-one-list {
     flex-basis: calc(100% / 3 - 30px);
@@ -829,4 +829,25 @@ color:var(--main-title-color) ;
 }
 .footer-links{
     color:#FFFFFF; 
+}
+.top-text{
+    position: absolute;
+    top: 0;
+    color: #FFFFFF;
+    background-color:rgba(33, 150, 243, 0.9); 
+    height: 100%;
+    padding: 63px 24px ;
+    line-height: 1.5;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+
+    transform: translateY(100%);
+    transition: transform 250ms linear;
+}
+.top-wrap{
+    position: relative;
+    overflow: hidden;
+}
+.section-one-list:hover .top-text{
+    transform: translateY(0); 
 }
