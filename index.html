@@ -48,7 +48,7 @@
      <div class="container">
       
          <h1 class="section-two-title">Эффективные решения для вашего бизнеса</h1>
-         <button  type="button" class="section-two-btn " > Заказать услугу</button>
+         <button  type="button" class="section-two-btn " data-modal-open > Заказать услугу</button>
         
         </div>
      </section>
@@ -118,20 +118,35 @@
         <div class="container">
         <h2 class="section-four-title">Чем мы занимаемся</h2>
         <ul class="section-four-list list">
+            <div class="content-wrap" >
             <li class="section-four-item"><img src="./img/photo1.jpg" 
                 alt="клавиатура" 
                 width="370"
                  height="294">
+                 <p class="content-text">
+                    Десктопные приложения
+                 </p>
+                </div>
             </li>
+            <div class="content-wrap" >
             <li class="section-four-item"><img src="./img/photo2.jpg" 
                 alt="ноутбук"
                  width="370"
                   height="294">
+                  <p class="content-text">
+                    Мобильные приложения
+                  </p>
+                </div>
             </li>
+            <div class="content-wrap" >
             <li class="section-four-item"><img src="./img/photo3.jpg"
                  alt="планшет"
                   width="370" 
                   height="294">
+                  <p class="content-text" >
+                    Дизайнерские решения
+                  </p>
+                </div> 
             </li>
         </ul>
     </div>
@@ -446,5 +461,11 @@
 </div>
 
  </footer>
+ <div class="backdrop is-hidden"data-modal >
+    <div class="modal">
+        <button type="button" class="modal-close-btn" data-modal-close>X</button>
+    </div>
+ </div>
+ <script src="./js/modal.js"></script>
 </body>
 </html>
