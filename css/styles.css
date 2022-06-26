@@ -858,21 +858,20 @@ color:var(--main-title-color) ;
 line-height: 1.5;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-padding-left: 85px;
+
 font-weight: 700;
 height: 70px;
-width: 100%;
+width: 370px;
 padding-top: 27px;
 padding-bottom: 27px;
 
-
-
+text-align: center;
 
 
 
 
 }
-.content-wrap{
+.section-four-list{
    position:relative;
   overflow: hidden;
   
