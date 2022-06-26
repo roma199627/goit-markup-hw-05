@@ -31,7 +31,7 @@ body {
     height: 4px;
     border-radius: 2px;
     background-color: #2196F3;
- top: 72px;
+ top: 45px;
 margin-left: -50px;
 
   
@@ -43,8 +43,8 @@ margin-left: -50px;
     height: 4px;
     background-color: #2196F3;
     border-radius: 2px;
-    top:72px;
-    margin-left: -75px;
+   top: 45px;
+    margin-left: -80px;
     
 }
  .header-link.current {
@@ -90,13 +90,13 @@ padding-bottom: 25px ;
     display: flex;
     padding: 0;
     margin: 0;
-   
+   position:relative ;
 }
 .header-two-list{
     display: flex;
     padding: 0;
     margin: 0;
-    
+    position: relative;
 }
  
 .heder .container{
@@ -838,7 +838,7 @@ color:var(--main-title-color) ;
     background-color:rgba(33, 150, 243, 0.9); 
     height: 100%;
     padding: 63px 24px ;
-    line-height: 1.5;
+    line-height: 1.4;
     font-size: 18px;
     letter-spacing: 0.03em;
 
@@ -858,9 +858,13 @@ color:var(--main-title-color) ;
 line-height: 1.5;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-left: 85px;
-right: 83px;
-height: 29%;
+padding-left: 85px;
+font-weight: 700;
+height: 70px;
+width: 100%;
+padding-top: 27px;
+padding-bottom: 27px;
+
 
 
 
@@ -870,7 +874,10 @@ height: 29%;
 }
 .content-wrap{
    position:relative;
+  overflow: hidden;
+  
 }
+
 
 .section-one-list:hover .top-text{
     transform: translateY(0); 
