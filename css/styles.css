@@ -523,7 +523,7 @@ padding-bottom: 94px;
                 align-items: center;
                 justify-content: center;
                 fill: #FFFFFF;
-                transition: background 250ms ease ;
+                transition: background  250ms ease ;
                 }
         .icon-link:hover,
         .icon-link:focus{
