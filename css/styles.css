@@ -147,7 +147,7 @@ align-items: center;
  margin-right: 50px;
  padding-top: 32px;
  padding-bottom: 32px;
- 
+ transition: color 250ms ease ;
  
  }
 
@@ -165,6 +165,7 @@ display: flex;
 align-items: center;
 color:#757575 ;
 fill: #757575;
+transition: color 250ms ease ;
 }
 .list-contact:hover  {
     color:var(--hover-footer-color) ;
@@ -241,6 +242,7 @@ margin-right: 8px;
 padding:  6px 22px 6px 22px;
 border: none;
 border-radius: 4px;
+transition: background 250ms ease ;
 }
 
 
@@ -248,6 +250,7 @@ border-radius: 4px;
  display: flex;
    margin-bottom: 60px;
  margin-left: 280px;
+ 
 }
 .section-one-link{
     margin-bottom: 4px;
@@ -412,7 +415,7 @@ color:#FFFFFF ;
   margin-right: 50px;
   padding-top: 32px;
   padding-bottom: 32px;
-  
+  transition: color 250ms ease ;
  }
  .footer-item{
      margin-bottom: 9px;
@@ -439,6 +442,7 @@ color:#757575 ;
 fill: #757575;
 display: flex;
 align-items: center;
+transition: color 250ms ease ;
 }
 .icon{
   margin-right: 10px; 
@@ -482,6 +486,7 @@ padding-bottom: 94px;
     align-items: center;
      justify-content: center;
      fill: #AFB1B8;
+     transition: background 250ms ease ;
     }
       
     .komanda-list{
@@ -518,6 +523,7 @@ padding-bottom: 94px;
                 align-items: center;
                 justify-content: center;
                 fill: #FFFFFF;
+                transition: background 250ms ease ;
                 }
         .icon-link:hover,
         .icon-link:focus{
@@ -578,6 +584,7 @@ color: #FFFFFF;
      border-radius: 4px;
      border: 1px solid
      #AFB1B8 ;
+     transition: background 250ms ease ;
     }
     .company-link:hover, 
     .company-link:focus{
@@ -862,9 +869,9 @@ text-transform: uppercase;
 font-weight: 700;
 height: 70px;
 width: 370px;
-padding-top: 27px;
-padding-bottom: 27px;
-
+display: flex;
+justify-content: center;
+align-items: center;
 text-align: center;
 
 
