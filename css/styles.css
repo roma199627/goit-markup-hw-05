@@ -148,7 +148,7 @@ align-items: center;
     align-items: center;
 }
 .header-two-mail{
-    margin-right: 50px;
+    
 
 }
 
@@ -227,11 +227,11 @@ background: #2196F3;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color:var(--main-title-color) ;
-    margin-left: 50px;
+   
 }
 .list-contact{
   list-style: none;
-   margin-left: auto;
+ 
    display: flex;
 }
 .list{
@@ -240,6 +240,15 @@ background: #2196F3;
     align-items: center;
    margin: 0;
     padding: 0;
+}
+.header-connect{
+    margin-left: auto;
+}
+.nav-connect{
+    margin-right: 50px;
+}
+.nav-connect:last-child{
+    margin: 0;
 }
                                  /* section */
 .section-btn
