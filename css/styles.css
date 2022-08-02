@@ -27,12 +27,14 @@ body {
  .hesder-two-link.current::after{
     content: "";
     position: absolute;
-   width:48px ;
+    display: block;
+   width:100% ;
     height: 4px;
     border-radius: 2px;
     background-color: #2196F3;
- top: 45px;
-margin-left: -50px;
+    left: 0;
+    bottom: 0;
+
 
   
 }
@@ -294,7 +296,7 @@ transition: background 250ms ease ;
     flex-basis: calc(100% / 3 - 30px);
     margin-left: 30px;
     margin-bottom: 30px;
-  
+ 
 background:#FFFFFF;
  }
 
@@ -451,6 +453,7 @@ display: block;
   padding-top: 32px;
   padding-bottom: 32px;
   transition: color 250ms ease ;
+  position: relative;
  }
  .footer-item{
      margin-bottom: 9px;
